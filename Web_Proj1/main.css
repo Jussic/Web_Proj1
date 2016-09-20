@@ -55,6 +55,7 @@ video {
 video {
   width:40%;
   height: auto;
+  float:right;
 }
 
 .footer {
@@ -71,24 +72,40 @@ video {
   padding-left:0px;
 }
 
-
-#comment_form input, #comment_form textarea {
-	border: 3px solid rgba(0,0,0,0.1);
-	padding: 4px 5px;
+form {
 }
 
-#comment_form textarea {
-  width: 40%;
-  height: 20%;
+.box{
+  padding:1%;
+  margin: 7%;
+    margin-left:0%;
+    margin-right:10%;
+  width: 20%;
+  height: 25%;
+  float:left;
+    border-width: 2px;
+    border-left-width: 3px;
+    border-right-width: 3px;
 }
 
-#comment_form input[type="submit"] {
-	cursor: pointer;
-	color: #333;
-	text-shadow: 0px 1px 1px rgba(255,255,255,1);
-	border: 1px solid #ccc;
+.box img
+{
+  height:80%;
+  width: 100%;
 }
 
-#comment_form input[type="submit"]:hover {
-	border: 1px solid #bbb;
+.main_box{
+  padding:0%;
+  margin:0%;
+  width: 90%;
+  height: 19%;
+    border-width: 5px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+}
+
+.main_box img
+{
+  height: 100%;
+  width: 100%;
 }
